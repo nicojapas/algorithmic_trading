@@ -64,7 +64,7 @@ Get the data, build the model, plot the results. Iterate. Try more features, com
 
 The model provides diagnostics such as:
 
-![diagnostics](./img/diagnostics.png?raw=true)
+![diagnostics](./img/diagnostics_.png?raw=true)
 
 I also calculated Mean absolute percentage error, Root mean square error, Pearson product-moment correlation coefficients, and others.
 

@@ -36,9 +36,9 @@ To get the data was the main difficulty, as I had to adapt to several limitation
 
 ## Analysis
 * Exploratory plotting, check for correlations, scatter, hist and combined plots.
-* ![pairplot_](D:\Nico\Programación\Bootcamp Ironhack\final_project\presentation\img\pairplot_.png)
-* ![j5_](D:\Nico\Programación\Bootcamp Ironhack\final_project\presentation\img\j5_.png)
-* ![j4_](D:\Nico\Programación\Bootcamp Ironhack\final_project\presentation\img\j4_.png)
+* ![pairplot_](./img/pairplot_.png?raw=true)
+* ![j5_](./img/j5_.png?raw=true)
+* ![j4_](./img/j4_.png?raw=true)
 * Feature selection came in this case from BI, and knowing how bitcoin's movements are related with them. The plots and correlations were a confirmation. And the the model provided significant Pearson correlation coefficients in the diagnostics, further suggesting that the selected data was at least to some degree relevant.
 
 ## Model Training and Evaluation
@@ -50,7 +50,7 @@ To get the data was the main difficulty, as I had to adapt to several limitation
 * I was able to generate predictions, both for the test values and for the unknown future (out-of-sample forecast).
 * A web-socket was implemented to fetch data in real-time directly from Binance, one of the major exchanges in the world. It streams data straight to the program, which can be analyzed in real-time (see the module binance_web_socket).
 * The features selected appear to be relevant. The model should be back-tested (not enough time) but appear to be a useful first approximation to an extremely complex problem.
-* ![plotly](D:\Nico\Programación\Bootcamp Ironhack\final_project\presentation\img\plotly.png)
+* ![plotly](./img/plotly.png?raw=true)
 
 ## Future Work
 This is going to be a commercial project in the future, deployed on a website where users will be able to create an account, log-in and set-up their bots to trade for them without the need of knowing anything about coding. The real-time fetching of data will be generalized, and more and more stocks and cryptocurrencies will be available.
@@ -64,7 +64,7 @@ Get the data, build the model, plot the results. Iterate. Try more features, com
 
 The model provides diagnostics such as:
 
-![diagnostics](D:\Nico\Programación\Bootcamp Ironhack\final_project\presentation\img\diagnostics.png)
+![diagnostics](./img/diagnostics_.png?raw=true)
 
 I also calculated Mean absolute percentage error, Root mean square error, Pearson product-moment correlation coefficients, and others.
 

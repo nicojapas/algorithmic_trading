@@ -1,4 +1,4 @@
-<img src="../main/img/algo_trading_logo.png" width=100 alt="logo">
+<img src="https://raw.githubusercontent.com/nicojapas/algorithmic_trading/main/img/algo_trading_logo.png" width=100 alt="logo">
 
 *Nicolás M. Japas*
 

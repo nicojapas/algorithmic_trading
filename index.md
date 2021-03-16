@@ -1,4 +1,4 @@
-<img src="/img/algo_trading_logo.png" width=100 alt="logo">
+<img src="./img/algo_trading_logo.png" width=100 alt="logo">
 
 *Nicolás M. Japas*
 
@@ -33,8 +33,8 @@ To get the data was the main difficulty, as I had to adapt to several limitation
 ## Analysis
 * Exploratory plotting, check for correlations, scatter, hist and combined plots.
 
-<img src="/img/pairplot_.png" alt="Pairplot">
-<img src="/img/j5_.png" alt="Scatter">
+<img src="./img/pairplot_.png" alt="Pairplot">
+<img src="img/j5_.png" alt="Scatter">
 <img src="/img/j4_.png" alt="Scatter">
 
 * Feature selection came in this case from BI, and knowing how bitcoin's movements are related with them. The plots and correlations were a confirmation. And the the model provided significant Pearson correlation coefficients in the diagnostics, further suggesting that the selected data was at least to some degree relevant.

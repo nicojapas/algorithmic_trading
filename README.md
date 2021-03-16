@@ -83,7 +83,3 @@ There is also a 'presentation' folder with the power point used for my presentat
 ## Links
 https://github.com/nicojapas/algorithmic_trading
 
-
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  

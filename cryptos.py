@@ -61,7 +61,7 @@ def get_supported_cryptos_static():
     
     >>> get_supported_cryptos_static()
     """
-    x = pd.read_csv('project_files/crypto_list.csv')['0'].values.tolist()
+    x = pd.read_csv('data/crypto_list.csv')['0'].values.tolist()
     return(x)
 
 

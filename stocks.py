@@ -165,7 +165,7 @@ def get_supported_stocks_static():
     >>> get_supported_stocks()
     """
 
-    x = pd.read_csv('project_files/stocks_etfs_list.csv')
+    x = pd.read_csv('data/stocks_etfs_list.csv')
     l1 = x['symbol'].to_list()
     l2 = x['name'].to_list()
     l3 = [str(i) + " - " + str(j) for i, j in zip(l1, l2)] 
